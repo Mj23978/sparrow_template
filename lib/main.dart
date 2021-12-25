@@ -10,7 +10,7 @@ import 'views/routes.dart';
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   setPathUrlStrategy();
-
+  
   runApp(ProviderScope(child: MyApp()));
 }
 
